@@ -6,6 +6,9 @@ body {
     list-style-type: none;
     overflow-x: hidden;
 }
+p {
+    text-align: justify;
+}
 
 .img-container img {
     width: 50px;
@@ -36,7 +39,7 @@ header {
 
 
 header .logo img {
-    width: 30px;
+    width: 50px;
     margin-top: -5px;
 }
 
@@ -190,11 +193,12 @@ nav a {
     transition: .4s ease-in-out;
     border: black;
     
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 #demoBtn:hover {
-   background-color: white;
-   color: black;
+   background-color: #6595d0;
+   color: white;
+   border: none;
 }
 
 .green-btn {
@@ -239,18 +243,20 @@ background-color:black ;
 }
 
 .text-sec {
-    width: 100%;
+    width: 90%;
 }
 
 .text-sec h1 {
-    font-size: 2.5rem;
+    font-size: 2.0rem;
     font-weight: 800;
     /* text-align: center; */
-    padding-top: 25px;
+    /* padding-top: 25px; */
     color: #111827;
 } 
 .about_h1 {
     text-align: center;
+    font-size: 3.0rem ;
+    margin-left:50px ;
 }
 .flex {
     display: flex;
@@ -263,6 +269,7 @@ background-color:black ;
     font-weight: 400;
     color: #111827;
     text-align: justify;
+    /* margin-top: 102px; */
 }
 p {
     text-align: justify;
